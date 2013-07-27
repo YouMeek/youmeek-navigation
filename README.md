@@ -1,4 +1,4 @@
-只为http://i.YouMeek.com服务。
+只为 http://i.YouMeek.com 服务。
 
 ①尊敬原作者。
 ②页脚有两个出处，如果使用于网络，必须留下。
