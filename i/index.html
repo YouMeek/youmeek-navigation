@@ -18,17 +18,21 @@
     <script type="text/javascript" src="js/jquery.tipTip.minified.js"></script>
     <script type="text/javascript" src="js/js.js"></script>
     <script type="text/javascript" src="js/dbx.js"></script>
-    <script type="text/javascript">        var _hmt = _hmt || [];
-    (function () {
-        var hm = document.createElement("script");
-        hm.src = "//hm.baidu.com/hm.js?cc19940e170de7f3eaddda5652ddbbca";
-        var s = document.getElementsByTagName("script")[0];
-        s.parentNode.insertBefore(hm, s);
-    })();</script>
-    <script type="text/javascript">        $(document).ready(function () {
-        $(".updateNote").tipTip({defaultPosition: "top", maxWidth: "auto", edgeOffset: 2});
-        $(".updateNoteInput").tipTip({defaultPosition: "bottom", maxWidth: "auto", edgeOffset: 2, keepAlive: true});
-    });</script>
+    <script type="text/javascript">
+		var _hmt = _hmt || [];
+		(function () {
+			var hm = document.createElement("script");
+			hm.src = "//hm.baidu.com/hm.js?cc19940e170de7f3eaddda5652ddbbca";
+			var s = document.getElementsByTagName("script")[0];
+			s.parentNode.insertBefore(hm, s);
+		})();
+	</script>
+    <script type="text/javascript">
+		$(document).ready(function () {
+			$(".updateNote").tipTip({defaultPosition: "top", maxWidth: "auto", edgeOffset: 2});
+			$(".updateNoteInput").tipTip({defaultPosition: "bottom", maxWidth: "auto", edgeOffset: 2, keepAlive: true});
+		});
+	</script>
 </head>
 <base target="_blank">
 <body>
@@ -37,13 +41,10 @@
         <div class="logo"><h1><a href="http://i.youmeek.com" title="Judas.n个人导航（亲，页脚有更新记录Orz）" target="_self">Judas.n个人导航</a>
         </h1></div>
         <div id="search">
-            <form name="s" action="http://www.baidu.com/s?wd=" target="_blank"><input type="text" id="q" name="wd"
-                                                                                      autocomplete="on" value=""
-                                                                                      title="页脚有更新记录Orz"
-                                                                                      class="updateNoteInput"><input
-                    type="button" id="button" onclick="window.open('http://203.208.46.148/search?q='+s.wd.value,'')"
-                    value="纯正谷歌"><input type="button" id="button"
-                                        onclick="window.open('http://www.baidu.com/s?wd='+s.wd.value,'')" value="百度一下">
+            <form name="s" action="http://www.baidu.com/s?wd=" target="_blank">
+				<input type="text" id="q" name="wd" autocomplete = "on" value = "" title = "页脚有更新记录Orz" class = "updateNoteInput">
+				<input type = "button" id = "button" onclick ="window.open('http://203.208.46.148/search?q='+s.wd.value,'')" value = "纯正谷歌">
+				<input type="button" id="button" onclick = "window.open('http://www.baidu.com/s?wd='+s.wd.value,'')" value="百度一下">
             </form>
         </div>
     </div>
