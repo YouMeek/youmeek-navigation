@@ -3,7 +3,7 @@
     $(".updateNote").tipTip({defaultPosition: "top", maxWidth: "auto", edgeOffset: 2});
     $(".updateNoteInput").tipTip({defaultPosition: "bottom", maxWidth: "auto", edgeOffset: 2, keepAlive: true});
     /*标题提示效果 end*/
-});
+ });
 
 /*百度统计代码 start*/
 var _hmt = _hmt || [];
@@ -25,3 +25,4 @@ function setTab(name, cursel, n) {
     }
 }
  /*TAB切换效果 end*/
+
