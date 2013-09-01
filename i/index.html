@@ -26,7 +26,7 @@
         </h1></div>
         <div id="search">
             <form name="s" action="http://www.baidu.com/s?wd=" target="_blank">
-				<input type="text" id="q" name="wd" autocomplete = "on" value = "" title = "页脚有更新记录Orz" class = "updateNoteInput">
+				<input type="text" id="q" name="wd" autocomplete = "on" value = "">
 				<input type = "button" id = "button" onclick ="window.open('http://203.208.46.148/search?q='+s.wd.value,'')" value = "纯正谷歌">
 				<input type="button" id="button" onclick = "window.open('http://www.baidu.com/s?wd='+s.wd.value,'')" value="百度一下">
             </form>
@@ -44,8 +44,8 @@
         <li id="one4" onclick="setTab('one',4,9)">交互设计</li>
         <li id="one5" onclick="setTab('one',5,9)">数据库</li>
         <li id="one6" onclick="setTab('one',6,9)">站长导航</li>
-        <li id="one7" onclick="setTab('one',7,9)" class="updateNote" title = "该栏目还在整理当中，所有链接为空，期待我后面的更新吧！<br/>（链接不会是每个软件的下载地址，而是软件教程地址）">PC软件</li>
-		<li id="one8" onclick="setTab('one',8,9)" class="updateNote" title = "该栏目还在整理当中，所有链接为空，期待我后面的更新吧！<br/>（链接不会是每个软件的下载地址，而是软件教程地址）">Android软件</li>
+        <li id="one7" onclick="setTab('one',7,9)">PC软件</li>
+		<li id="one8" onclick="setTab('one',8,9)">Android软件</li>
 		<li id="one9" onclick="setTab('one',9,9)">新奇新鲜</li>
     </ul>
 </div>
@@ -1689,25 +1689,20 @@
             <li><a href="http://www.chinaup.org/" target="_blank">嵌入式培训</a></li>
             <li><a href="http://www.chinaup.org/college" target="_blank">嵌入式Linux培训</a></li>
             <li><a href="http://www.chinaup.org/courses/ARM.htm" target="_blank">ARM培训</a></li>
-            <li><a href="http://www.chinaup.org/courses/Android.htm" target="_blank">Android培训</a>
-            </li>
-            <li><a href="http://www.chinaup.org/about/index.htm" target="_blank">Linux培训</a></li>
-            <li><a href="http://www.chinaup.org/courses/RTLinux.htm" target="_blank">RtLinux培训</a>
-            </li>
-            <li><a href="http://www.eg3.com/" target="_blank">eg3</a></li>
+            <li><a href="http://www.chinaup.org/courses/Android.htm" target="_blank">Android培训</a></li>
+			<li><a href="http://www.chinaup.org/about/index.htm" target="_blank">Linux培训</a></li>
+            <li><a href="http://www.chinaup.org/courses/RTLinux.htm" target="_blank">RtLinux培训</a></li>
+			<li><a href="http://www.eg3.com/" target="_blank">eg3</a></li>
             <li><a href="http://www.es-mag.com/" target="_blank">es-mag</a></li>
             <li><a href="http://www.dspsolution.com/" target="_blank">dspsolution</a></li>
             <li><a href="http://www.seeddsp.com/" target="_blank">合众达电子</a></li>
-            <li><a href="http://focus.ti.com.cn/cn/tihome/docs/homepage.tsp" target="_blank">德州仪器
-                (TI)</a></li>
-            <li><a href="http://www.embeddedtechnology.com/" target="_blank">technology.com</a></li>
-            <li><a href="http://cs-www.bu.edu/pub/ieee-rts/Home.html" target="_blank">Real-Time
-                Systems</a></li>
+            <li><a href="http://focus.ti.com.cn/cn/tihome/docs/homepage.tsp" target="_blank">德州仪器(TI)</a></li>
+			<li><a href="http://www.embeddedtechnology.com/" target="_blank">technology.com</a></li>
+            <li><a href="http://cs-www.bu.edu/pub/ieee-rts/Home.html" target="_blank">Real-Time Systems</a></li>
             <li><a href="http://www.embedded.com/" target="_blank">Embedded.com</a></li>
             <li><a href="http://www.embeddedinternet.com/" target="_blank">EmbeddedInternet</a></li>
-            <li><a href="http://www.ifi.uzh.ch/groups/ailab/links/embedded.html" target="_blank">Embedded</a>
-            </li>
-            <li><a href="http://www.embedded-forecast.com/" target="_blank">Embedded Market</a></li>
+            <li><a href="http://www.ifi.uzh.ch/groups/ailab/links/embedded.html" target="_blank">Embedded</a></li>
+			<li><a href="http://www.embedded-forecast.com/" target="_blank">Embedded Market</a></li>
             <li><a href="http://www.realtime-info.com/" target="_blank">Dedicated Systems</a></li>
             <li><a href="http://www.bol-system.com/" target="_blank">中国单片机公共实验</a></li>
             <li><a href="http://www.phanderson.com/" target="_blank">Peter H. Anderson</a></li>
@@ -2605,9 +2600,9 @@
     <div class="dbx-handle">
         <div class="title">聊天</div>
         <ul>
-            <li><a href="javascript:;" target="_blank">QQ2013</a></li>
-            <li><a href="javascript:;" target="_blank">TM2013</a></li>
-            <li><a href="javascript:;" target="_blank">旺旺</a></li>
+            <li><a href="http://im.qq.com/qq/2013/" target="_blank">QQ2013</a></li>
+            <li><a href="http://www.youmeek.com/tm2013-introduce/" target="_blank">TM2013</a></li>
+            <li><a href="http://wangwang.taobao.com/" target="_blank">旺旺</a></li>
         </ul>
     </div>
     <div class="dbx-content">
@@ -2622,15 +2617,18 @@
     <div class="dbx-handle">
         <div class="title">浏览器</div>
         <ul>
-            <li><a href="javascript:;" target="_blank">Firefox</a></li>
-            <li><a href="javascript:;" target="_blank">Chrome</a></li>
-            <li><a href="javascript:;" target="_blank">搜狗浏览器</a></li>
+            <li><a href="http://baoku.360.cn/soft/search?kw=firefox" target="_blank">Firefox</a></li>
+            <li><a href="http://baoku.360.cn/soft/search?kw=chrome" target="_blank">Chrome</a></li>
+            <li><a href="http://ie.sogou.com/" target="_blank">搜狗浏览器</a></li>
+            <li><a href="http://se.360.cn/" target="_blank">360浏览器</a></li>
+            <li><a href="http://pan.baidu.com/share/link?shareid=558071969&uk=4228812604" target="_blank" class="updateNote" title="Chrome封装版">穿越一体化1</a></li>
+            <li><a href="http://pan.baidu.com/share/link?shareid=560639311&uk=4228812604" target="_blank" class="updateNote" title="Firefox封装版">穿越一体化2</a></li>
         </ul>
     </div>
     <div class="dbx-content">
         <dl>
             <dt>
-            <li><a href="javascript:;" target="_blank">360浏览器</a></li>
+            <li><a href="javascript:;" target="_blank">预备</a></li>
             </dt>
 		</dl>
     </div>
@@ -2639,13 +2637,14 @@
     <div class="dbx-handle">
         <div class="title">文档</div>
         <ul>
-            <li><a href="javascript:;" target="_blank">Office 2013</a></li>
+            <li><a href="http://jn3.141592654.blog.163.com/blog/static/27477260201292611014142/" target="_blank">Office 2013</a></li>
+            <li><a href="http://www.wps.cn/" target="_blank">Office 2013</a></li>
         </ul>
     </div>
     <div class="dbx-content">
         <dl>
             <dt>
-            <li><a href="javascript:;" target="_blank">WPS</a></li>
+            <li><a href="javascript:;" target="_blank">预备</a></li>
             </dt>
 		</dl>
     </div>
@@ -2654,14 +2653,16 @@
     <div class="dbx-handle">
         <div class="title">输入法</div>
         <ul>
-            <li><a href="javascript:;" target="_blank">QQ拼音</a></li>
+            <li><a href="http://shurufa.qq.com/" target="_blank">QQ拼音</a></li>
+            <li><a href="http://pinyin.sogou.com/" target="_blank">搜狗拼音</a></li>
+            <li><a href="http://shurufa.baidu.com/" target="_blank">百度拼音</a></li>
+            <li><a href="http://www.google.com/intl/zh-CN/ime/pinyin/" target="_blank">谷歌拼音</a></li>
         </ul>
     </div>
     <div class="dbx-content">
         <dl>
             <dt>
-            <li><a href="javascript:;" target="_blank">搜狗拼音</a></li>
-            <li><a href="javascript:;" target="_blank">谷歌拼音</a></li>
+            <li><a href="javascript:;" target="_blank">预备</a></li>
             </dt>
 		</dl>
     </div>
@@ -2670,22 +2671,22 @@
     <div class="dbx-handle">
         <div class="title">高效</div>
         <ul>
-            <li><a href="javascript:;" target="_blank">音速启动</a></li>
-            <li><a href="javascript:;" target="_blank">StrokesPlus</a></li>
-            <li><a href="javascript:;" target="_blank">飞雪桌面日历</a></li>
-            <li><a href="javascript:;" target="_blank">Q-Dir</a></li>
-            <li><a href="javascript:;" target="_blank">MindManager</a></li>
-            <li><a href="javascript:;" target="_blank">Everything</a></li>
-            <li><a href="javascript:;" target="_blank">FancyCache</a></li>
-            <li><a href="javascript:;" target="_blank">Primo Ramdisk</a></li>
+            <li><a href="http://www.youmeek.com/vstart-recommend/" target="_blank">音速启动</a></li>
+            <li><a href="http://www.youmeek.com/win8-strokesplus-recommend/" target="_blank">StrokesPlus</a></li>
+            <li><a href="http://www.youmeek.com/good-desktop-software-xt263/" target="_blank">飞雪桌面日历</a></li>
+            <li><a href="http://www.xiazaiba.com/word/Q-Dir" target="_blank">Q-Dir</a></li>
+            <li><a href="http://www.youmeek.com/i-like-mindjet-mindmanager/" target="_blank">MindManager</a></li>
+            <li><a href="http://www.youmeek.com/everything-recommend/" target="_blank">Everything</a></li>
+            <li><a href="http://www.youmeek.com/large-capacity-memory-optimize-fancycache-ramdisk/" target="_blank">FancyCache</a></li>
+            <li><a href="http://www.youmeek.com/large-capacity-memory-optimize-fancycache-ramdisk/" target="_blank">Primo Ramdisk</a></li>
         </ul>
     </div>
     <div class="dbx-content">
         <dl>
             <dt>
             <li><a href="javascript:;" target="_blank">Goagent</a></li>
-            <li><a href="javascript:;" target="_blank">百度云盘</a></li>
-            <li><a href="javascript:;" target="_blank">爱同步</a></li>
+            <li><a href="http://pan.baidu.com/" target="_blank">百度云盘</a></li>
+            <li><a href="http://dbank.vmall.com/pc/download.jsp" target="_blank">爱同步</a></li>
             </dt>
 		</dl>
     </div>
@@ -2694,11 +2695,11 @@
 	<div class="dbx-handle">
 		<div class="title">系统增强</div>
 		<ul>
-			<li><a href="javascript:;" target="_blank">MacType</a></li>
+			<li><a href="http://www.xiazaiba.com/html/2046.html" target="_blank">MacType</a></li>
 			<li><a href="javascript:;" target="_blank">Unlocker</a></li>
-			<li><a href="javascript:;" target="_blank">PC Hunter</a></li>
-			<li><a href="javascript:;" target="_blank">右键管家</a></li>
-			<li><a href="javascript:;" target="_blank">365定时关机</a></li>
+			<li><a href="http://www.xuetr.com/" target="_blank">PC Hunter</a></li>
+			<li><a href="http://www.xiazaiba.com/html/5887.html" target="_blank">右键管家</a></li>
+			<li><a href="http://www.xiazaiba.com/html/24188.html" target="_blank">365定时关机</a></li>
 			<li><a href="http://173.254.214.232/" target="_blank" title="https://cngov.me/" class="updateNote">VPNYou</a></li>
 		</ul>
 	</div>
@@ -2714,10 +2715,10 @@
 	<div class="dbx-handle">
 		<div class="title">系统维护</div>
 		<ul>
-			<li><a href="javascript:;" target="_blank">CCleaner</a></li>
-			<li><a href="javascript:;" target="_blank">360安全卫士</a></li>
+			<li><a href="http://baoku.360.cn/soft/search?kw=CCleaner" target="_blank">CCleaner</a></li>
+			<li><a href="http://www.360.cn/" target="_blank">360安全卫士</a></li>
 			<li><a href="javascript:;" target="_blank" class="updateNote" title="Advanced SystemCare">SystemCare</a></li>
-			<li><a href="javascript:;" target="_blank">魔方优化大师</a></li>
+			<li><a href="http://mofang.ithome.com/" target="_blank">魔方优化大师</a></li>
 		</ul>
 	</div>
 	<div class="dbx-content">
@@ -2732,14 +2733,16 @@
     <div class="dbx-handle">
         <div class="title">解压</div>
         <ul>
-            <li><a href="javascript:;" target="_blank">360压缩</a></li>
-            <li><a href="javascript:;" target="_blank">7-zip</a></li>
+            <li><a href="http://www.bandicam.com/bandizip/cn/" target="_blank">bandizip</a></li>
+            <li><a href="http://yasuo.360.cn/" target="_blank">360压缩</a></li>
+            <li><a href="http://baoku.360.cn/soft/search?kw=7-Zip" target="_blank">7-zip</a></li>
+            <li><a href="http://www.xiazaiba.com/word/winRAR" target="_blank">winRAR</a></li>
         </ul>
     </div>
     <div class="dbx-content">
         <dl>
             <dt>
-            <li><a href="javascript:;" target="_blank">winRAR</a></li>
+            <li><a href="javascript:;" target="_blank">预留</a></li>
             </dt>
 		</dl>
     </div>
@@ -2748,16 +2751,16 @@
     <div class="dbx-handle">
         <div class="title">编辑器</div>
         <ul>
-            <li><a href="javascript:;" target="_blank">EmEditor</a></li>
-            <li><a href="javascript:;" target="_blank">Notepad++</a></li>
+            <li><a href="http://www.xiazaiba.com/html/533.html" target="_blank">EmEditor</a></li>
+            <li><a href="http://www.xiazaiba.com/html/186.html" target="_blank">Notepad++</a></li>
             <li><a href="javascript:;" target="_blank">VIM</a></li>
         </ul>
     </div>
     <div class="dbx-content">
         <dl>
             <dt>
-            <li><a href="javascript:;" target="_blank">Sublime Text</a></li>
-            <li><a href="javascript:;" target="_blank">Windows Live Writer</a></li>
+            <li><a href="http://www.xiazaiba.com/html/24343.html" target="_blank">Sublime Text</a></li>
+            <li><a href="http://www.youmeek.com/windows-live-writer-blogging/" target="_blank">Windows Live Writer</a></li>
             </dt>
 		</dl>
     </div>
@@ -2766,22 +2769,22 @@
     <div class="dbx-handle">
         <div class="title">工作</div>
         <ul>
-            <li><a href="javascript:;" target="_blank">IntelliJ IDEA</a></li>
-            <li><a href="javascript:;" target="_blank">Myeclipse</a></li>
-            <li><a href="javascript:;" target="_blank">PowerDesigner</a></li>
-            <li><a href="javascript:;" target="_blank">Axure RP</a></li>
-            <li><a href="javascript:;" target="_blank">RegexBuddy</a></li>
-            <li><a href="javascript:;" target="_blank">Beyond Compare</a></li>
-            <li><a href="javascript:;" target="_blank">FileZilla</a></li>
+            <li><a href="http://www.jetbrains.com/idea/" target="_blank">IntelliJ IDEA</a></li>
+            <li><a href="http://www.xiazaiba.com/html/23858.html" target="_blank">Myeclipse</a></li>
+            <li><a href="http://so.pc6.com/?keyword=PowerDesigner" target="_blank">PowerDesigner</a></li>
+            <li><a href="http://www.pc6.com/softview/SoftView_50921.html" target="_blank">Axure RP</a></li>
+            <li><a href="http://www.pc6.com/softview/SoftView_1457.html" target="_blank">RegexBuddy</a></li>
+            <li><a href="http://www.xiazaiba.com/html/53.html" target="_blank">Beyond Compare</a></li>
+            <li><a href="http://www.youmeek.com/filezilla-use/" target="_blank">FileZilla</a></li>
         </ul>
     </div>
     <div class="dbx-content">
         <dl>
             <dt>
-            <li><a href="javascript:;" target="_blank">MySQL</a></li>
-            <li><a href="javascript:;" target="_blank">SQLyog</a></li>
-            <li><a href="javascript:;" target="_blank">SQL Server</a></li>
-            <li><a href="javascript:;" target="_blank">Oracle</a></li>
+            <li><a href="http://www.youmeek.com/windows-linux-mysql-install/" target="_blank">MySQL</a></li>
+            <li><a href="http://www.youmeek.com/windows-linux-mysql-install/" target="_blank">SQLyog</a></li>
+            <li><a href="http://www.youmeek.com/windows-sql-server-install/" target="_blank">SQL Server</a></li>
+            <li><a href="http://www.youmeek.com/windows-linux-oracle-install/" target="_blank">Oracle</a></li>
             </dt>
 		</dl>
     </div>
@@ -2791,14 +2794,13 @@
         <div class="title">记事</div>
         <ul>
             <li><a href="javascript:;" target="_blank">OneNote 2013</a></li>
-            <li><a href="javascript:;" target="_blank">有道云笔记</a></li>
-            <li><a href="javascript:;" target="_blank">EmEditor</a></li>
+            <li><a href="http://note.youdao.com/" target="_blank">有道云笔记</a></li>
         </ul>
     </div>
     <div class="dbx-content">
         <dl>
             <dt>
-            <li><a href="javascript:;" target="_blank">印象笔记</a></li>
+            <li><a href="http://www.yinxiang.com/" target="_blank">印象笔记</a></li>
             </dt>
 		</dl>
     </div>
@@ -2807,10 +2809,12 @@
     <div class="dbx-handle">
         <div class="title">播放器</div>
         <ul>
-            <li><a href="javascript:;" target="_blank">GomPlayer</a></li>
-            <li><a href="javascript:;" target="_blank">QQ影音</a></li>
-            <li><a href="javascript:;" target="_blank">快播</a></li>
-            <li><a href="javascript:;" target="_blank">QQ音乐</a></li>
+            <li><a href="http://www.gomlab.com/cn/" target="_blank">GomPlayer</a></li>
+            <li><a href="http://www.xiazaiba.com/word/PotPlayer" target="_blank">PotPlayer</a></li>
+            <li><a href="http://player.qq.com/" target="_blank">QQ影音</a></li>
+            <li><a href="http://www.xiazaiba.com/html/136.html" target="_blank">快播</a></li>
+            <li><a href="http://www.xiami.com/apps/win" target="_blank">虾米音乐</a></li>
+            <li><a href="http://y.qq.com/" target="_blank">QQ音乐</a></li>
             <li><a href="javascript:;" target="_blank">千千静听</a></li>
         </ul>
     </div>
@@ -2826,14 +2830,14 @@
     <div class="dbx-handle">
         <div class="title">下载</div>
         <ul>
-            <li><a href="javascript:;" target="_blank">QQ旋风(离线)</a></li>
-            <li><a href="javascript:;" target="_blank">iDown</a></li>
+            <li><a href="http://xf.qq.com/" target="_blank">QQ旋风(离线)</a></li>
+            <li><a href="http://www.xiazaiba.com/html/4221.html" target="_blank">iDown</a></li>
         </ul>
     </div>
     <div class="dbx-content">
         <dl>
             <dt>
-            <li><a href="javascript:;" target="_blank">迅雷</a></li>
+            <li><a href="http://www.xiazaiba.com/html/3113.html" target="_blank">迅雷</a></li>
             </dt>
 		</dl>
     </div>
@@ -2842,10 +2846,10 @@
     <div class="dbx-handle">
         <div class="title">图片</div>
         <ul>
-            <li><a href="javascript:;" target="_blank">Picasa</a></li>
-            <li><a href="javascript:;" target="_blank" class="updateNote" title="FastStone Image Viewe">FastStone</a>
+            <li><a href="http://picasa.google.com/" target="_blank">Picasa</a></li>
+            <li><a href="http://www.xiazaiba.com/html/822.html" target="_blank" class="updateNote" title="FastStone Image Viewer">FastStone</a>
             </li>
-            <li><a href="javascript:;" target="_blank">EasyImageModifier</a></li>
+            <li><a href="http://www.youmeek.com/easy-image-modifier-recommend/" target="_blank">EasyImageModifier</a></li>
         </ul>
     </div>
     <div class="dbx-content">
@@ -2860,7 +2864,7 @@
     <div class="dbx-handle">
         <div class="title">翻译</div>
         <ul>
-            <li><a href="javascript:;" target="_blank">有道词典</a></li>
+            <li><a href="http://cidian.youdao.com/?keyfrom=dict.entry" target="_blank">有道词典</a></li>
         </ul>
     </div>
     <div class="dbx-content">
@@ -2874,30 +2878,33 @@
     <div class="dbx-handle">
         <div class="title">驱动</div>
         <ul>
-            <li><a href="javascript:;" target="_blank">驱动精灵</a></li>
+            <li><a href="http://www.drivergenius.com/" target="_blank">驱动精灵</a></li>
+            <li><a href="http://www.160.com/" target="_blank">驱动人生</a></li>
         </ul>
     </div>
     <div class="dbx-content">
         <dl>
             <dt>
-            <li><a href="javascript:;" target="_blank">驱动人生</a></li>
-            </dt></dl>
+				<li><a href="javascript:;" target="_blank">预留</a></li>
+            </dt>
+		</dl>
     </div>
 </div>
 <div class="dbx-box">
     <div class="dbx-handle">
         <div class="title">软件卸载</div>
         <ul>
-            <li><a href="javascript:;" target="_blank" class="updateNote"
-                   title="Ashampoo Uninstaller">Uninstaller</a></li>
+            <li><a href="javascript:;" target="_blank" class="updateNote" title = "Ashampoo Uninstaller">Uninstaller</a></li>
+            <li><a href="javascript:;" target="_blank">IObit Uninstaller</a></li>
             <li><a href="javascript:;" target="_blank">360软件管家</a></li>
         </ul>
     </div>
     <div class="dbx-content">
         <dl>
             <dt>
-            <li><a href="javascript:;" target="_blank">预留</a></li>
-            </dt></dl>
+				<li><a href="javascript:;" target="_blank">预留</a></li>
+            </dt>
+		</dl>
     </div>
 </div>
 <div class="dbx-box">
@@ -3460,7 +3467,8 @@
 		</span>
 		<span class = "copyright"><a href = "http://www.youmeek.com" target = "_blank">关于Judas.n</a></span>
 		<span class = "copyright"><a href="http://weibo.com/stonelau" target="_blank">关于Stonelau</a></span>
-		<span class = "copyright updateNoteInput" title = "更新内容有：<br/>更新了部分栏目的站，但是没有再创建栏目！<br/><hr>该导航源码已托管到github：youmeek-navigation<br/>欢迎大家投稿，分享你喜欢的站点：jn3.141592654@163.com">Judas.n大更新：2013-07-27（鼠标放在我这里试试看o(∩_∩) o）</span>
+		<span class = "copyright"><a href="http://i.youmeek.com/log/" target="_blank">导航更新记录</a></span>
+		<!--<span class = "copyright updateNoteInput" title = "更新内容有：<br/>更新了部分栏目的站，但是没有再创建栏目！<br/><hr>该导航源码已托管到github：youmeek-navigation<br/>欢迎大家投稿，分享你喜欢的站点：jn3.141592654@163.com">Judas.n大更新：2013-07-27（鼠标放在我这里试试看o(∩_∩) o）</span>-->
 	</div>
 </div>
 <script type="text/javascript">    var manager = new dbxManager('index', 'yes', 'yes', 'button');
