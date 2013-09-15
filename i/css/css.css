@@ -95,13 +95,13 @@ body {
 }
 
 #search {
-    width: 328px;
+    width: 270px;
     height: 28px;
     float: right;
     padding-top: 18px
 }
 
-#q {
+#wd {
     width: 170px;
     height: 18px;
     padding: 5px 5px 5px 25px;
