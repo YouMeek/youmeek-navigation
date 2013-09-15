@@ -1,4 +1,5 @@
 var dbx;
+var noName;
 function dbxManager(sid, useid, hide, buttontype) {
     dbx = this;
     if (!/^[-_a-z0-9]+$/i.test(sid)) {
